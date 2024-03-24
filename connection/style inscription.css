@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 80%; /* Utilisation de % pour une mise à l'échelle plus flexible */
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 1rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  padding: 2rem 3rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+}
+
+.container h2 {
+  font-size: 2rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  text-align: center;
+}
+
+.container .form-group {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+}
+
+.container .form-group label {
+  color: #fff;
+}
+
+.container .form-group input[type="text"],
+.container .form-group input[type="email"],
+.container .form-group input[type="password"] {
+  width: 100%;
+  height: 2.5rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 2rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  font-size: 1rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  color: #fff;
+  padding: 0.5rem 1rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  margin-top: 0.5rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+}
+
+.container .form-group button[type="submit"] {
+  width: 100%;
+  height: 3rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 2rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 1rem; /* Utilisation de rem pour une mise à l'échelle basée sur la taille de la police */
+  color: #333;
+  font-weight: 600;
+}
+
+
